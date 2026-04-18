@@ -15,7 +15,7 @@ A simple **Node.js + Express** project demonstrating:
 
 ## 📂 Project Structure
 
-
+```
 project/
 │
 ├── public/
@@ -28,7 +28,7 @@ project/
 ├── .gitignore
 └── README.md
 
-
+```
 ---
 
 ## ⚙️ Features
@@ -43,55 +43,60 @@ project/
 
 ## 🛠️ Installation & Setup
 
-```bash
-# Clone repository
-git clone https://github.com/your-username/express-routing-api.git
 
-# Navigate into project
+### Clone repository
+```
+git clone https://github.com/ifra489/express-routing-api.git
+```
+
+
+### Navigate into project
+```
 cd express-routing-api
-
-# Install dependencies
+```
+### Install dependencies
+```
 npm install
-
-# Run server
+```
+### Run server
+```
 node appe.js
-
-Server runs on:
-
+```
+###Server runs on:
+```
 http://localhost:3000
-📌 API Endpoints
-👤 Users
-Method	Endpoint	Description
-GET	/users	Get all users
-GET	/users/:id	Get user by ID
-POST	/users	Create user
-PUT	/users/:id	Update user
-DELETE	/users/:id	Delete user
-📝 Posts
-Method	Endpoint	Description
-GET	/posts	Get all posts
-GET	/posts/:id	Get post by ID
-POST	/posts	Create post
-PUT	/posts/:id	Update post
-DELETE	/posts/:id	Delete post
-🖼️ Screenshots
-📌 API Response Example
+```
+## 📌 API Endpoints
 
-💡 Tip: Replace this image with your own Postman or browser screenshots
+### Users
+GET /users  
+GET /users/:id  
+POST /users  
+PUT /users/:id  
+DELETE /users/:id  
 
-📦 Technologies Used
-Node.js
-Express.js
-JavaScript (ES6)
-🚧 Future Improvements
+### Posts
+GET /posts  
+GET /posts/:id  
+POST /posts  
+PUT /posts/:id  
+DELETE /posts/:id  
+
+
+
+## 📦 Technologies Used
+- Node.js
+- Express.js
+- JavaScript (ES6)
+## 🚧 Future Improvements
 🔹 Connect with MongoDB
 🔹 Add Authentication (JWT)
 🔹 Input validation
 🔹 Error handling middleware
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-🙌 Author
+## 🙌 Author
 
-Your Name
+Ifra Malik
